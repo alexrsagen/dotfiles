@@ -27,10 +27,17 @@
         80
     ],
     "[pebakery]": {
-        "editor.wordBasedSuggestions": false
+        "editor.wordBasedSuggestions": "off"
     },
     "python.linting.enabled": false,
-    "C_Cpp.default.includePath": [],
+    "C_Cpp.default.includePath": [
+        "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\include",
+        "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22000.0\\shared",
+        "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22000.0\\ucrt",
+        "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22000.0\\um",
+        "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22000.0\\winrt",
+        "E:\\dev\\git\\openssl1_1-win-build\\build-VS2022\\x64\\Release\\include"
+    ],
     "editor.wordWrap": "on",
     "editor.insertSpaces": false,
     "liveshare.guestApprovalRequired": true,
@@ -47,30 +54,29 @@
     "remote.WSL.fileWatcher.pollingInterval": 15000,
     "workbench.startupEditor": "none",
     "git.suggestSmartCommit": false,
-    "php.validate.executablePath": "C:\\Users\\alexrsagen\\dev\\php8\\php.exe",
+    "php.validate.executablePath": "E:\\dev\\php8\\php.exe",
     "php.suggest.basic": false,
     "[javascript]": {
-        "editor.defaultFormatter": "HookyQR.beautify"
+        "editor.defaultFormatter": "vscode.typescript-language-features"
     },
     "mssql.connections": [
         {
             "server": "{{put-server-name-here}}",
             "database": "{{put-database-name-here}}",
             "user": "{{put-username-here}}",
-            "password": ""
+            "password": "",
+            "id": "76A94997-5226-41D9-87F3-DD2F1A35387F",
+            "groupId": "81F2B8DF-C1D7-4F73-B2A8-BC7B985418C0"
         }
     ],
     "editor.fontSize": 16,
     "redhat.telemetry.enabled": false,
     "editor.minimap.enabled": false,
-    "diffEditor.ignoreTrimWhitespace": false,
-    // "editor.wrappingIndent": "indent",
-    "workbench.activityBar.visible": false,
     "workbench.iconTheme": "vs-minimal",
     "workbench.editor.showIcons": false,
     "python.defaultInterpreterPath": "C:\\Program Files\\Python37\\python.exe",
     "[html]": {
-        "editor.defaultFormatter": "HookyQR.beautify"
+        "editor.defaultFormatter": "vscode.html-language-features"
     },
     "editor.bracketPairColorization.enabled": true,
     "editor.guides.bracketPairs": true,
@@ -401,10 +407,31 @@
         }
     },
     "rust-analyzer.diagnostics.experimental.enable": true,
-    "rust-analyzer.lru.capacity": 90000,
+    "rust-analyzer.lru.capacity": 65535,
     "rust-analyzer.rustfmt.rangeFormatting.enable": true,
-    "[css]": {
-        "editor.defaultFormatter": "HookyQR.beautify"
+	"cmake.configureOnOpen": false,
+	"autoit.consoleParams": "",
+	"[python]": {
+		"editor.formatOnType": true
     },
-	"cmake.configureOnOpen": false
+    "rust-analyzer.imports.granularity.group": "module",
+    "xml.format.preserveAttributeLineBreaks": false,
+    "xml.format.maxLineWidth": 0,
+    "editor.fontFamily": "'Intel One Mono', Consolas, 'Courier New', monospace",
+    "workbench.activityBar.location": "hidden",
+    "diffEditor.renderSideBySide": true,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "[rust]": {
+        "editor.defaultFormatter": "rust-lang.rust-analyzer"
+    },
+    "zenMode.hideLineNumbers": false,
+    "chat.commandCenter.enabled": false,
+    "mssql.connectionGroups": [
+        {
+            "name": "ROOT",
+            "id": "81F2B8DF-C1D7-4F73-B2A8-BC7B985418C0"
+        }
+    ],
+    "chat.agent.enabled": false,
+    "telemetry.feedback.enabled": false
 }
